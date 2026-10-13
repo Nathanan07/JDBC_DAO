@@ -17,9 +17,9 @@ import java.sql.*
 class BDD(
 
 
-    var url: String = "jdbc:mysql://localhost:3306/bdd_jdbc",
-    var user: String = "root",
-    var password: String = "",
+    var url: String = "jdbc:mysql://172.17.70.28:3306/bdd_jdbc",
+    var user: String = "sio",
+    var password: String = "sio22",
 ) {
     var connectionBDD: Connection? = null
 
